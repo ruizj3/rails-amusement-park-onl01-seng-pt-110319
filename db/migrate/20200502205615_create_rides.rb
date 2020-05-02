@@ -7,7 +7,6 @@ class CreateRides < ActiveRecord::Migration[5.2]
       t.integer :happiness_rating
       t.integer :min_height
 
-
       t.timestamps null: false
     end
   end
